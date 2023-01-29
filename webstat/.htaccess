@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/silnova.pp.ua/webstat"
+AuthUserFile /hosting/b16-45926/data/etc/29982732.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
